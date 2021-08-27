@@ -1,0 +1,61 @@
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,100&display=swap');
+  @mixin shadow {
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    @include shadow();
+    font-size: 23px;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+   @include shadow();
+    font-size: 23px;
+    float:none;
+    padding:10px;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    @include shadow();
+    font-size: 20px;
+    span {
+      white-space: pre-line;
+    }
+  }
+  .jbm{
+    font-family: 'JetBrains Mono', monospace;
+  }
+  a {
+    color:fuchsia;
+  }
+  a:hover{
+    color: orange;
+  }
+  .copy_right_footer{
+      position: fixed;
+      color: white;
+      bottom:0;
+      width:100%;
+      background-color:gray;
+      line-height:3;
+      text-align:center;
+      margin-top: 100px;
+  }
+  canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    @include shadow();
+    margin-top: 160px;
+  }
+  body{
+    background-image: url(https://previews.123rf.com/images/notkoo2008/notkoo20081306/notkoo2008130600083/20513329-doodle-robot-element.jpg);
+  }
